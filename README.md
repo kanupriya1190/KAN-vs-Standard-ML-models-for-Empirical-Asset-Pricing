@@ -9,7 +9,7 @@ Advisor: Denis Chetverikov
 
 ## Overview
 
-This project benchmarks **Kolmogorov-Arnold Networks (KANs)** against established machine learning models for predicting monthly cross-sectional stock returns among the **Magnificent 7** U.S. mega-cap equities. Motivated by the empirical asset pricing framework of [Gu, Kelly & Xiu (2020)](https://doi.org/10.1093/rfs/hhab083), it evaluates models on both **statistical accuracy** (out-of-sample R²) and **economic value** (long-short portfolio Sharpe ratios and maximum drawdown).
+This project benchmarks **Kolmogorov-Arnold Networks (KANs)** against established machine learning models for predicting monthly cross-sectional stock returns among the **Magnificent 7** U.S. mega-cap equities. Motivated by the empirical asset pricing framework of Gu, Kelly & Xiu (2020), it evaluates models on both **statistical accuracy** (out-of-sample R²) and **economic value** (long-short portfolio Sharpe ratios and maximum drawdown).
 
 **Key finding:** All models produce negative out-of-sample R² in this concentrated, high-efficiency universe — but GBRT still extracts a modest positive Sharpe (0.74) from nonlinear patterns, while neural architectures (DNN, RNN, KAN) and linear regression fail to generate persistent portfolio value.
 
